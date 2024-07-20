@@ -122,5 +122,10 @@ namespace Calculator
             num1 = 0;
             num2 = 0;
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

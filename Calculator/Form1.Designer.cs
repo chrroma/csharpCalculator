@@ -259,9 +259,12 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(textDisplay);
+            Cursor = Cursors.Default;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Calculator";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
